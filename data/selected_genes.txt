@@ -1,0 +1,8 @@
+﻿Symbol	Name	Gene Family	Type	RNA-Seq Correlation	RNA-Seq Correlation Self-Rank
+MGMT    landmark
+MLH1    landmark
+ATM     landmark
+GATA6   landmark
+CASP8   landmark
+KRAS    landmark
+TP53    landmark

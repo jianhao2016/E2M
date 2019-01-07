@@ -1,0 +1,13 @@
+sample data are all in GBM/data/dataset
+
+------
+folder description:
+    download_from_TCGA: contains guides of how to download and process raw data directly from TCGA
+    lm_pickle: pikle files of landmark genes used in data preprocessing
+    promoter_pos: promoter position of each gene
+
+------
+functionality of scipts:
+    create_name2symbol_dic.py, data_preprocessing.py, dict_generator.py: data preprocessing scripts
+    train_test_data_generator.py: extract train and test data from raw files and store in python dictionary.
+    quantized_input_test.py: quantized the extracted python dictionary input 8/4 bits.

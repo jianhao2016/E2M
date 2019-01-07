@@ -1,0 +1,12 @@
+required files from TCGA:
+    - all cases UUIDs of a cancer type from TCGA
+    - all methylation files' UUIDs from TCGA
+    - all RNA-seq files' UUIDs from TCGA
+
+Then run the python script as follow:
+    python create_UUID_payload.py
+
+which will genereate the payload files and the mapping file. Go the payload_files folder, run the script as follow:
+    source download_files.sh <payload file>
+
+The raw data will be downloaded in a .gz format.
